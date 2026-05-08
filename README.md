@@ -1,93 +1,147 @@
-# Portfolio Ana
+<div align="center">
 
+<!-- HEADER VISUAL -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:f9a8d4,50:c084fc,100:a78bfa&height=220&section=header&text=Mi%20PORTFOLIO&fontSize=58&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=donde%20cada%20commit%20cuenta%20una%20historia&descAlignY=62&descSize=18&descColor=fde8ff"/>
 
+</div>
 
-## Getting started
+<br/>
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+<div align="center">
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+## 🌸 Bienvenida al caos organizado
 
-## Add your files
+</div>
 
-* [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-* [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existing Git repository with the following command:
+> *Spoiler: esto no es un CV. Es el sitio donde las ideas sobreviven al primer `git push` (o no, y también lo documento).*
+
+Aquí viven mis proyectos reales. De los que empiezan con "qué idea tan buena" y terminan con tres pestañas de Stack Overflow abiertas y una solución que funciona sin saber muy bien por qué. Pero funciona, y eso cuenta.
+
+Aprendo en público, construyo en público y de vez en cuando también fallo en público. Todo eso está aquí.
+
+---
+
+<div align="center">
+
+## 🗂️ ¿Qué hay dentro?
+
+</div>
 
 ```
-cd existing_repo
-git remote add origin https://gitlab.com/anasansegundo98/portfolio-ana.git
-git branch -M main
-git push -uf origin main
+📁 portfolio/
+├── 🌐 Frontend        → interfaces, componentes, SPAs y cosas que se ven bonitas
+├── ⚙️  Backend         → APIs REST, lógica de negocio y el código que nadie ve pero todo lo mueve
+├── 🗄️  Bases de datos  → modelos de datos, queries y mis peleas con MySQL a las 11 de la noche
+├── ☁️  Cloud & DevOps  → configuraciones, despliegues y mis primeras aventuras con AWS (sobreviví)
+└── 🧪 Proyectos       → apps completas, del wireframe al deploy. Las que más orgullosa me ponen.
 ```
 
-## Integrate with your tools
+Cada proyecto tiene su propio README explicando qué hice, por qué lo hice así y qué haría diferente ahora. Porque el contexto importa casi tanto como el código.
 
-* [Set up project integrations](https://gitlab.com/anasansegundo98/portfolio-ana/-/settings/integrations)
+---
 
-## Collaborate with your team
+<div align="center">
 
-* [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-* [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-* [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-* [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-* [Set auto-merge](https://docs.gitlab.com/user/project/merge_requests/auto_merge/)
+## 🛠️ Con qué trabajo
 
-## Test and Deploy
+</div>
 
-Use the built-in continuous integration in GitLab.
+<div align="center">
 
-* [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/)
-* [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-* [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-* [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-* [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+**Frontend**
 
-***
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-c084fc?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-f9a8d4?style=for-the-badge&logo=javascript&logoColor=black)
+![Angular](https://img.shields.io/badge/Angular-e879f9?style=for-the-badge&logo=angular&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-a78bfa?style=for-the-badge&logo=vuedotjs&logoColor=white)
 
-# Editing this README
+**Backend**
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
+![Java](https://img.shields.io/badge/Java-f472b6?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-c084fc?style=for-the-badge&logo=spring&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-a78bfa?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-e879f9?style=for-the-badge&logo=php&logoColor=white)
 
-## Suggestions for a good README
+**Datos & Cloud**
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+![MySQL](https://img.shields.io/badge/MySQL-c084fc?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-a78bfa?style=for-the-badge&logo=mongodb&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-f472b6?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-e879f9?style=for-the-badge&logo=linux&logoColor=white)
 
-## Name
-Choose a self-explaining name for your project.
+**Herramientas del día a día**
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+![Git](https://img.shields.io/badge/Git-f9a8d4?style=for-the-badge&logo=git&logoColor=black)
+![GitHub](https://img.shields.io/badge/GitHub-a78bfa?style=for-the-badge&logo=github&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-f472b6?style=for-the-badge&logo=postman&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-c084fc?style=for-the-badge&logo=figma&logoColor=white)
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+</div>
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+---
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+<div align="center">
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+## 💜 Cómo funciona mi cabeza cuando desarrollo
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+</div>
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+No soy de esperar a tener el proyecto perfecto para empezar. Eso no existe. Mi proceso es más o menos así:
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+| Fase | La realidad |
+|------|-------------|
+| 🌱 **Idea** | Entiendo qué problema quiero resolver antes de tocar el teclado |
+| ⚡ **MVP** | Construyo la versión más simple que funcione. Sin florituras. |
+| 🔁 **Iteración** | Mejoro, refactorizo y añado lo que falta (o quito lo que sobra) |
+| 📝 **Documentación** | Explico las decisiones, no solo el resultado. El "por qué" importa. |
+| 🚀 **Deploy** | Lo subo aunque me dé vértigo. El código que nadie ve no sirve de nada. |
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+> *Los bugs no son fracasos, son features sin documentar todavía.*
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+---
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+<div align="center">
 
-## License
-For open source projects, say how it is licensed.
+## 🎯 Por qué existe este portfolio
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+</div>
+
+Hay tres razones concretas:
+
+🌸 **Demostrar** que sé construir cosas que funcionan, no solo seguir tutoriales  
+💜 **Documentar** mi evolución, proyecto a proyecto, commit a commit  
+✨ **Conectar** con gente que también esté construyendo algo (o rompiéndolo, también vale)
+
+Si algo de lo que ves te llama la atención, tienes feedback, quieres colaborar o simplemente quieres hablar de tecnología, estoy al otro lado. 
+
+---
+
+<div align="center">
+
+## 📊 Mis números en GitHub
+
+</div>
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=anasansegundo98&show_icons=true&hide_border=true&bg_color=1a0a2e&title_color=e879f9&icon_color=c084fc&text_color=fce7f3)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anasansegundo98&layout=compact&hide_border=true&bg_color=1a0a2e&title_color=e879f9&text_color=fce7f3)
+
+</div>
+
+---
+
+<div align="center">
+
+*Hecho con demasiado café, algún que otro `undefined is not a function` y muchas ganas* 🌸
+
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-c084fc?style=for-the-badge&logo=linkedin&logoColor=white)](anasansegundo98)
+[![Email](https://img.shields.io/badge/Email-f472b6?style=for-the-badge&logo=gmail&logoColor=white)](anasansegundo98@gmail.com)
+
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:a78bfa,50:c084fc,100:f9a8d4&height=120&section=footer&animation=twinkling"/>
