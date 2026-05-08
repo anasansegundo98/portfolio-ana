@@ -1,17 +1,127 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio de Ana</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="img/favicon3.png?vs"
+      sizes="32x32"
+    />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <title> CV ANA SAN SEGUNDO</title>
-</head>
+  <body>
+    <header class="hero" id="inicio">
+      <nav class="nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-mi">Acerca de mí</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#proyectos">Mis proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
 
-<body>
+      <div class="hero-content">
+        <h1 id="typing"></h1>
+      </div>
+    </header>
 
-</body>
+    <section id="sobre-mi">
+      <h2>Acerca de mí</h2>
+    </section>
 
-<footer>
+    <section id="habilidades">
+      <h2>Mis habilidades</h2>
 
-</footer>
+      <div class="skills-group">
+        <h3>Frontend</h3>
+        <div class="skills-container">
+          <div class="skill">
+            <img src="img/html-logo.png" alt="HTML" />
+            <span>HTML</span>
+          </div>
+          <div class="skill">
+            <img src="img/css-logo.png" alt="CSS" />
+            <span>CSS</span>
+          </div>
+          <div class="skill">
+            <img src="img/js-logo.png" alt="JavaScript" />
+            <span>JavaScript</span>
+          </div>
+        </div>
+      </div>
 
+      <div class="skills-group">
+        <h3>Backend</h3>
+        <div class="skill">
+          <img src="img/java-logo.svg" alt="MySQL" />
+          <span>Java</span>
+        </div>
+      </div>
+
+      <div class="skills-group">
+        <h3>Herramientas</h3>
+        <div class="skills-container">
+          <div class="skill">
+            <img src="img/git-logo.png" alt="Git" />
+            <span>Git</span>
+          </div>
+          <div class="skill">
+            <img src="img/github-logo.svg" alt="GitHub" />
+            <span>GitHub</span>
+          </div>
+          <div class="skill">
+            <img src="img/trello-logo.png" alt="Trello" />
+            <span>Trello</span>
+          </div>
+          <div class="skill">
+            <img src="img/mysql-logo.webp" alt="MySQL" />
+            <span>MySQL</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="proyectos">
+      <h2>Mis proyectos</h2>
+
+      <div class="carousel">
+        <button class="prev">‹</button>
+
+        <div class="carousel-track">
+          <div class="project-card">
+            <img src="img/calculadora.png" alt="Proyecto 1" />
+            <h3>Calculadora</h3>
+            <button onclick="openModal('video1.mp4')">Ver demo</button>
+          </div>
+
+          <div class="project-card">
+            <img src="img/proyecto2.png" alt="Proyecto 2" />
+            <h3>Proyecto2</h3>
+            <button onclick="openModal('video2.mp4')">Ver demo</button>
+          </div>
+        </div>
+
+        <button class="next">›</button>
+      </div>
+    </section>
+    <section id="contacto" class="contacto">
+      <h2>Contacto</h2>
+      <p>¿Hablamos? Puedes escribirme aquí:</p>
+
+      <form>
+        <input type="text" placeholder="Nombre" />
+        <input type="email" placeholder="Email" />
+        <textarea placeholder="Mensaje"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+  <footer>
+    <p>© 2026 Ana — Desarrolladora Full Stack</p>
+  </footer>
 </html>
