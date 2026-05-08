@@ -139,8 +139,8 @@ Si algo de lo que ves te llama la atención, tienes feedback, quieres colaborar 
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-c084fc?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/TU_PERFIL)
-[![Email](https://img.shields.io/badge/Email-f472b6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:TU_EMAIL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-c084fc?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/ana-san-segundo-garcía-698991137)
+[![Email](https://img.shields.io/badge/Email-f472b6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anasansegundo98@gmail.com)
 
 </div>
 
