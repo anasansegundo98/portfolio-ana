@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HEADER VISUAL -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:f9a8d4,50:c084fc,100:a78bfa&height=220&section=header&text=Mi%20PORTFOLIO&fontSize=58&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=donde%20cada%20commit%20cuenta%20una%20historia&descAlignY=62&descSize=18&descColor=fde8ff"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:f9a8d4,50:c084fc,100:a78bfa&height=220&section=header&text=Mi%20PORTFOLIO&fontSize=58&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=&descAlignY=62&descSize=18&descColor=fde8ff"/>
 
 </div>
 
@@ -113,7 +113,7 @@ Hay tres razones concretas:
 💜 **Documentar** mi evolución, proyecto a proyecto, commit a commit  
 ✨ **Conectar** con gente que también esté construyendo algo (o rompiéndolo, también vale)
 
-Si algo de lo que ves te llama la atención, tienes feedback, quieres colaborar o simplemente quieres hablar de tecnología, estoy al otro lado. 
+Si algo de lo que ves te llama la atención, tienes feedback, quieres colaborar o simplemente quieres hablar de tecnología, estoy al otro lado. No muerdo (el código a veces sí).
 
 ---
 
@@ -125,9 +125,9 @@ Si algo de lo que ves te llama la atención, tienes feedback, quieres colaborar 
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=anasansegundo98&show_icons=true&hide_border=true&bg_color=1a0a2e&title_color=e879f9&icon_color=c084fc&text_color=fce7f3)
+[![GitHub Streak](https://streak-stats.demolab.com?user=anasansegundo98&theme=midnight-purple&hide_border=true&background=1a0a2e&ring=e879f9&fire=f472b6&currStreakLabel=c084fc&sideLabels=fce7f3&dates=fce7f3&currStreakNum=ffffff&sideNums=ffffff)](https://github.com/anasansegundo98)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anasansegundo98&layout=compact&hide_border=true&bg_color=1a0a2e&title_color=e879f9&text_color=fce7f3)
+[![Trofeos](https://github-profile-trophy.vercel.app/?username=anasansegundo98&theme=radical&no-frame=true&row=1&column=6)](https://github.com/anasansegundo98)
 
 </div>
 
@@ -139,8 +139,8 @@ Si algo de lo que ves te llama la atención, tienes feedback, quieres colaborar 
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-c084fc?style=for-the-badge&logo=linkedin&logoColor=white)](anasansegundo98)
-[![Email](https://img.shields.io/badge/Email-f472b6?style=for-the-badge&logo=gmail&logoColor=white)](anasansegundo98@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-c084fc?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/TU_PERFIL)
+[![Email](https://img.shields.io/badge/Email-f472b6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:TU_EMAIL)
 
 </div>
 
