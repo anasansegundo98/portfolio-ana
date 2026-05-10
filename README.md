@@ -32,7 +32,6 @@ Aprendo en público, construyo en público y de vez en cuando también fallo en 
 ├── 🌐 Frontend        → interfaces, componentes, SPAs y cosas que se ven bonitas
 ├── ⚙️  Backend         → APIs REST, lógica de negocio y el código que nadie ve pero todo lo mueve
 ├── 🗄️  Bases de datos  → modelos de datos, queries y mis peleas con MySQL a las 11 de la noche
-├── ☁️  Cloud & DevOps  → configuraciones, despliegues y mis primeras aventuras con AWS (sobreviví)
 └── 🧪 Proyectos       → apps completas, del wireframe al deploy. Las que más orgullosa me ponen.
 ```
 
