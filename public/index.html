@@ -14,35 +14,48 @@
   </head>
 
   <body>
-    <header class="hero" id="inicio">
-      <nav class="nav">
-        <a href="#inicio">Inicio</a>
+    <header class="site-header">
+      <nav class="site-nav">
+        <a href="#inicio" class="active">Inicio</a>
         <a href="#sobre-mi">Acerca de mí</a>
         <a href="#habilidades">Habilidades</a>
         <a href="#proyectos">Mis proyectos</a>
         <a href="#contacto">Contacto</a>
       </nav>
-
-      <div class="hero-content">
-        <h1 id="typing"></h1>
-      </div>
     </header>
 
-    <section id="sobre-mi">
+    <section class="hero-section" id="inicio">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">Portfolio Personal</h1>
+          <h2 id="typing" class="hero-name"></h2>
+          <p class="hero-description">
+            Diseñadora y desarrolladora con visión humana. Combino creatividad,
+            usabilidad y código limpio para construir experiencias digitales
+            memorables.
+          </p>
+        </div>
+        <div class="hero-avatar">
+          <img src="img/avatar2.png" alt="Ana San Segundo García" />
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="about-section">
       <h2>Acerca de mí</h2>
-      <p>
-        Vengo del ámbito social, y eso me enseñó a entender los problemas de
-        verdad y buscar soluciones prácticas y útiles para las personas. Con el
-        tiempo, la inestabilidad del sector me llevó a replantearme mi camino
-        profesional. La tecnología siempre me había llamado la atención, aunque
-        durante años la vi como algo fuera de mi alcance. Hasta que decidí dejar
-        de verlo como una barrera y empezar desde cero. He pasado por el
-        síndrome del impostor —y a veces sigue apareciendo—, pero aquí sigo:
-        construyendo proyectos reales, aprendiendo constantemente y aplicando IA
-        para crear soluciones más eficientes. Mi punto fuerte no es solo
-        escribir código, sino entender el problema antes de empezar a
-        desarrollar la solución.
-      </p>
+      <div class="about-grid">
+        <div class="about-copy">
+          <p>
+            Vengo del ámbito social, y eso me enseñó a entender los problemas de
+            verdad y buscar soluciones prácticas y útiles para las personas.
+            La tecnología dejó de ser una barrera cuando <strong>decidí aprender desde cero</strong> y hoy trabajo con <strong>proyectos reales</strong>, aprendizaje continuo y una mirada creativa orientada al usuario.
+          </p>
+          <p>
+            Mi enfoque combina <strong>empatía con eficiencia</strong>: crear interfaces
+            <strong>modernas</strong>, <strong>accesibles</strong> y con <strong>micro-interacciones</strong> que conectan con el usuario sin perder claridad ni simplicidad.
+          </p>
+        </div>
+      </div>
     </section>
 
     <section id="habilidades">
@@ -68,13 +81,19 @@
 
       <div class="skills-group">
         <h3>Backend</h3>
-        <div class="skill">
-          <img src="img/java-logo.svg" alt="Java" />
-          <span>Java</span>
-        </div>
-        <div class="skill">
-          <img src="img/python-logo.svg" alt="Python" /> <!-- falta el logo de python -->
-          <span>Python</span>
+        <div class="skills-container">
+          <div class="skill">
+            <img src="img/java-logo.svg" alt="Java" />
+            <span>Java</span>
+          </div>
+          <div class="skill">
+            <img src="img/python.png" alt="Python" />
+            <span>Python</span>
+          </div>
+          <div class="skill">
+            <img src="img/php.png" alt="Php" />
+            <span>Php</span>
+          </div>
         </div>
       </div>
       <div class="skills-group">
@@ -97,6 +116,10 @@
             <img src="img/mysql-logo.webp" alt="MySQL" />
             <span>MySQL</span>
           </div>
+          <div class="skill">
+            <img src="img/mongoDB.png" alt="MongoDB" />
+            <span>MongoDB</span>
+          </div>
         </div>
       </div>
       <div class="skills-group">
@@ -105,6 +128,10 @@
           <div class="skill">
             <img src="img/trello-logo.png" alt="Trello" />
             <span>Trello</span>
+          </div>
+          <div class="skill">
+            <img src="img/figma.png" alt="Figma" />
+            <span>Figma</span>
           </div>
         </div>
       </div>
@@ -134,20 +161,60 @@
       </div>
     </section>
     <section id="contacto" class="contacto">
-      <h2>Contacto</h2>
-      <p>¿Hablamos? Puedes escribirme aquí:</p>
+      <div class="contacto-header">
+        <img src="img/mi_logo_pixelart.png" alt="Logo Ana" class="contacto-logo" />
+        <div>
+          <h2>¡Conectemos!</h2>
+          <p>¿Hablamos? Puedes escribirme aquí o encontrarme en mis redes:</p>
+        </div>
+      </div>
 
-      <form>
-        <input type="text" placeholder="Nombre" />
-        <input type="email" placeholder="Email" />
-        <textarea placeholder="Mensaje"></textarea>
-        <button type="submit">Enviar</button>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/ana-san-segundo-garcía-698991137" target="_blank" rel="noopener noreferrer" class="social-link linkedin">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+          </svg>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link github">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+          </svg>
+          <span>GitHub</span>
+        </a>
+      </div>
+
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" placeholder="Tu nombre" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="tu@email.com" required />
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" placeholder="Cuéntame sobre tu proyecto..." required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">
+          <span>Enviar mensaje</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+          </svg>
+        </button>
       </form>
     </section>
 
+    <footer class="site-footer">
+      <p>© 2026 Ana — Desarrolladora Full Stack</p>
+      <nav class="footer-links">
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </footer>
+
     <script src="script.js"></script>
   </body>
-  <footer>
-    <p>© 2026 Ana — Desarrolladora Full Stack</p>
-  </footer>
 </html>
