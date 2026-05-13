@@ -167,6 +167,7 @@ body::before {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: transparent;
 }
 
 .hero-avatar img {
@@ -174,6 +175,7 @@ body::before {
   max-width: 300px;
   height: auto;
   border-radius: 24px;
+  background: transparent;
   box-shadow: 0 20px 60px rgba(30, 51, 9, 0.15);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -465,26 +467,29 @@ body::before {
 }
 
 .project-card button {
-  background: var(--guayaba-medium);
-  color: white;
-  border: none;
-  padding: 10px 18px;
-  border-radius: 10px;
+  background: rgba(132, 154, 40, 0.12);
+  color: var(--guayaba-dark);
+  border: 2px solid rgba(132, 154, 40, 0.2);
+  padding: 12px 22px;
+  border-radius: 12px;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
   margin: 14px 18px 18px;
-  font-size: 0.85rem;
-  font-weight: 600;
+  font-size: 0.92rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
   white-space: nowrap;
   width: fit-content;
   align-self: flex-start;
-  box-shadow: 0 4px 12px rgba(30, 51, 9, 0.08);
+  box-shadow: 0 5px 14px rgba(30, 51, 9, 0.09);
 }
 
 .project-card button:hover {
-  background: var(--guayaba-accent);
+  background: var(--guayaba-medium);
+  color: white;
+  border-color: transparent;
   transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(226, 50, 96, 0.25);
+  box-shadow: 0 10px 24px rgba(30, 51, 9, 0.18);
 }
 
 .project-card button:active {
